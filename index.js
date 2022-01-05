@@ -1,5 +1,5 @@
 const div = document.querySelector(".cont")
-const b1 = document.getElementById("btn-1")
+const b1 = document.querySelector(".btn-1")
 const nav = document.querySelector(".navigation")
 
 let i = 0.0;
