@@ -4,10 +4,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  color: blue;
-}
-
 .header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -53,16 +49,47 @@ h1 {
   justify-self: center;
 }
 
-#btn-1 {
-  text-decoration: none;
+.btn-1 {
+  height: 60px;
+  width: 50px;
+  border-radius: 24px;
+  background-color: none;
+  border: none;
+}
+
+.btn-1:hover {
+  cursor: pointer;
+  background-color: rgb(104, 104, 107);
+}
+
+.dots{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  font-size: 20px;
+  line-height: 20px;
+  width: 2em;
 }
 
 .navigation {
-  position: fixed;
-  top: 0;
+  position: relative;
+  margin-top: 10px;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 2;
+  height: 100vh;
   background: #fff;
+}
+
+#menu-href {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+#menu-href:hover {
+  color: gray;
 }
