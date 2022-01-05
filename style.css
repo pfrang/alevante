@@ -53,6 +53,10 @@ h1 {
   justify-self: center;
 }
 
+#btn-1 {
+  text-decoration: none;
+}
+
 .navigation {
   position: fixed;
   top: 0;
